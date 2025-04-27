@@ -2,6 +2,10 @@
 
 This is a chatbot application built using **Streamlit** that provides answers based on the content of Elam's blog. The chatbot uses **FAISS** for efficient similarity search, **Sentence Transformers** for embeddings, and **Groq API** for generating responses.
 
+## 🚀 Live Implementation
+[Interact With the Bot](https://elam-chatbot.streamlit.app/)
+
+
 ---
 
 ## **Features**
