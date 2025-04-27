@@ -1,7 +1,6 @@
 import streamlit as st
 from groq_basic import chatbot  # Import the chatbot logic
 import time
-import asyncio
 
 # Initialize chat history
 if "messages" not in st.session_state:

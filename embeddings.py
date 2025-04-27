@@ -5,8 +5,8 @@ import numpy as np
 import re
 from sentence_transformers import SentenceTransformer
 
-# Initialize the model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+# Dynamically download the model
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Check if embeddings and FAISS index already exist
 if os.path.exists("embeddings.pkl") and os.path.exists("faiss_index.bin"):

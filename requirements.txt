@@ -4,3 +4,5 @@ faiss-cpu
 python-dotenv
 langchain-groq
 numpy
+torch
+huggingface-hub
