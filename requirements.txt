@@ -2,3 +2,5 @@ streamlit
 sentence-transformers
 faiss-cpu
 python-dotenv
+langchain-groq
+numpy
