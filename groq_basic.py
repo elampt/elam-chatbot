@@ -1,19 +1,21 @@
 import os
 import re
+import streamlit as st
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from embeddings import search  # Import the search function from embeddings.py
 
-# Load the environment variables from .env file
+# Load environment variables from .env for local development
 load_dotenv()
 
-# Set up the API key
-api_key = os.getenv("GROQ_API_KEY")
+# Load the API key from Streamlit secrets or .env
+api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 if not api_key:
-    raise ValueError("GROQ_API_KEY environment variable is not set.")
+    raise ValueError("GROQ_API_KEY is not set in Streamlit secrets or .env.")
 
-# Initialize the ChatGroq client
+# Initialize the ChatGroq client with the API key
 llm = ChatGroq(
+    api_key=api_key,  # Pass the API key here
     model="llama-3.1-8b-instant",
     temperature=0.5,
     max_retries=3
