@@ -18,21 +18,24 @@
 
 **Daily Plan:**
 
-* ***Day 1: 05/05/2025** ✅
+* **Day 1: 05/05/2025** ✅
 	Foundational Models & Prompt Engineering – Learn about transformers, fine-tuning, and try prompt engineering examples
 
-* ***Day 2: 05/05/2025** ✅
+* **Day 2: 06/05/2025** ✅
 	Embeddings & Vector Stores – Explore OpenAI embeddings + FAISS/ChromaDB basics
 
-* ***Day 3:** GenAI Agents – Understand agent architecture, experiment with LangChain's AgentExecutor
+* **Day 3: 14/05/2025** ✅
+	GenAI Agents – Understand agent architecture, experiment with LangChain's AgentExecutor
 
-* ***Day 4:** Domain-Specific LLMs – Read about SecLM, Med-PaLM, brainstorm niche LLM ideas
+* **Day 4: 14/05/2025 ✅** 
+	Domain-Specific LLMs – Read about SecLM, Med-PaLM, brainstorm niche LLM ideas
 
-* ***Day 5:** MLOps for GenAI – Learn about Vertex AI tools, explore model pipelines
+* **Day 5: 16/05/2025 ✅** 
+	MLOps for GenAI – Learn about Vertex AI tools, explore model pipelines
 
-* ***Day 6:** Reflect + Post learnings (LinkedIn / Notion blog)
+* **Day 6:** Reflect + Post learnings (LinkedIn / Notion blog)
 
-* ***Day 7:** Optional catch-up / Rest
+* **Day 7:** Optional catch-up / Rest
 
 ✨ Output: Certificate + personal notes + ideas for chatbot project
 
@@ -44,19 +47,19 @@ Fun idea: Share 1 thing daily with #ElamLearnsGenAI on LinkedIn
 
 **Daily Plan:**
 
-* ***Day 1:** FastAPI basics – endpoints, path/query params
+* **Day 1:** FastAPI basics – endpoints, path/query params
 
-* ***Day 2:** Pydantic models, request/response validation
+* **Day 2:** Pydantic models, request/response validation
 
-* ***Day 3:** CRUD with FastAPI + SQLite/PostgreSQL
+* **Day 3:** CRUD with FastAPI + SQLite/PostgreSQL
 
-* ***Day 4:** Middleware, Auth, Routers
+* **Day 4:** Middleware, Auth, Routers
 
-* ***Day 5:** Pagination, Error handling, Swagger UI
+* **Day 5:** Pagination, Error handling, Swagger UI
 
-* ***Day 6:** Build Blog API Project – Part 1
+* **Day 6:** Build Blog API Project – Part 1
 
-* ***Day 7:** Blog API Project – Part 2
+* **Day 7:** Blog API Project – Part 2
 
 ✨ Output: Blog API Project on GitHub
 
@@ -68,19 +71,19 @@ Fun idea: Use ChatGPT for random FastAPI mini-challenges
 
 **Daily Plan:**
 
-* ***Day 1:** Intro to Docker – Images, Containers, Dockerfiles
+* **Day 1:** Intro to Docker – Images, Containers, Dockerfiles
 
-* ***Day 2:** Dockerize Blog API (with PostgreSQL/SQLite)
+* **Day 2:** Dockerize Blog API (with PostgreSQL/SQLite)
 
-* ***Day 3:** Learn Docker Compose
+* **Day 3:** Learn Docker Compose
 
-* ***Day 4:** Push to GitHub, version control basics
+* **Day 4:** Push to GitHub, version control basics
 
-* ***Day 5:** Deploy to Render / Railway / Heroku (or AWS EC2 basics)
+* **Day 5:** Deploy to Render / Railway / Heroku (or AWS EC2 basics)
 
-* ***Day 6:** Write proper README, test endpoints
+* **Day 6:** Write proper README, test endpoints
 
-* ***Day 7:** Rest + Share deployed project on LinkedIn
+* **Day 7:** Rest + Share deployed project on LinkedIn
 
 ✨ Output: Deployed FastAPI project + GitHub with README
 
@@ -92,19 +95,19 @@ Fun idea: Intentional "Docker breaks" and fix challenges
 
 **Daily Plan:**
 
-* ***Day 1:** SQL Refresher – SELECT, JOIN, WHERE, GROUP BY
+* **Day 1:** SQL Refresher – SELECT, JOIN, WHERE, GROUP BY
 
-* ***Day 2:** Leetcode SQL problems + subqueries
+* **Day 2:** Leetcode SQL problems + subqueries
 
-* ***Day 3:** Pandas/Numpy review, read CSV, clean data
+* **Day 3:** Pandas/Numpy review, read CSV, clean data
 
-* ***Day 4:** Visualizations – Matplotlib, Seaborn basics
+* **Day 4:** Visualizations – Matplotlib, Seaborn basics
 
-* ***Day 5:** Pick dataset from Kaggle, start EDA project
+* **Day 5:** Pick dataset from Kaggle, start EDA project
 
-* ***Day 6:** Build dashboard (Streamlit / Power BI)
+* **Day 6:** Build dashboard (Streamlit / Power BI)
 
-* ***Day 7:** Publish notebook + dashboard
+* **Day 7:** Publish notebook + dashboard
 
 ✨ Output: EDA Project (e.g. Netflix Analysis / COVID Trends)
 
@@ -116,19 +119,19 @@ Fun idea: Fun dataset Fridays – use Marvel, Spotify, etc.
 
 **Daily Plan:**
 
-* ***Day 1:** Scrape/export prasanth.io content, clean + chunk
+* **Day 1:** Scrape/export prasanth.io content, clean + chunk
 
-* ***Day 2:** Generate embeddings, store in FAISS/Chroma
+* **Day 2:** Generate embeddings, store in FAISS/Chroma
 
-* ***Day 3:** Setup FastAPI + LangChain RAG pipeline
+* **Day 3:** Setup FastAPI + LangChain RAG pipeline
 
-* ***Day 4:** Build chatbot UI (CLI or Streamlit)
+* **Day 4:** Build chatbot UI (CLI or Streamlit)
 
-* ***Day 5:** Add citation logic, test edge cases
+* **Day 5:** Add citation logic, test edge cases
 
-* ***Day 6:** Dockerize + deploy app
+* **Day 6:** Dockerize + deploy app
 
-* ***Day 7:** Share project + post on LinkedIn
+* **Day 7:** Share project + post on LinkedIn
 
 ✨ Output: Deployed GenAI chatbot + GitHub + walkthrough
 
@@ -140,19 +143,19 @@ Fun idea: Try giving your chatbot a personality or theme!
 
 **Daily Plan:**
 
-* ***Day 1:** Resume rewrite (Backend / Data Analyst version)
+* **Day 1:** Resume rewrite (Backend / Data Analyst version)
 
-* ***Day 2:** LinkedIn optimization (Headline, About, Projects)
+* **Day 2:** LinkedIn optimization (Headline, About, Projects)
 
-* ***Day 3:** GitHub cleanup, portfolio site optional
+* **Day 3:** GitHub cleanup, portfolio site optional
 
-* ***Day 4:** Practice interview questions (SQL, FastAPI)
+* **Day 4:** Practice interview questions (SQL, FastAPI)
 
-* ***Day 5:** Apply to 10 jobs (LinkedIn, AngelList, Cutshort)
+* **Day 5:** Apply to 10 jobs (LinkedIn, AngelList, Cutshort)
 
-* ***Day 6:** Reach out for referrals (Kovai, Adapt, QV Labs)
+* **Day 6:** Reach out for referrals (Kovai, Adapt, QV Labs)
 
-* ***Day 7:** Reflect + Week-wise review
+* **Day 7:** Reflect + Week-wise review
 
 ✨ Output: Updated resume + profile + job applications started
 

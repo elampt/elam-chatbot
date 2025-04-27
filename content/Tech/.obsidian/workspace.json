@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "085a773975641715",
+    "type": "split",
+    "children": [
+      {
+        "id": "092645bc2fc73b40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98a4133536def302",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "991df73c94957489",
+    "type": "split",
+    "children": [
+      {
+        "id": "17df27c8864ff4d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa10509f145e5504",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6afc6bb04b51ca2c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d18084373a4cafb6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1bc3856312cbc225",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef6117b3d1f2c2ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2a1ddba957e8473",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "6 Week Career Plan/🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI)"
+            }
+          },
+          {
+            "id": "c2226da7b222f9ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "6 Week Career Plan/🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI)"
+            }
+          },
+          {
+            "id": "c933048049f875d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d64edcc274b063d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6 Week Career Plan/🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI).md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fa10509f145e5504",
+  "lastOpenFiles": [
+    "Books/Ikigai.md",
+    "Untitled",
+    "Books/Books I've Read.md",
+    "Books/The Art of Being Alone.md",
+    "Learnings/Publish notes with Quartz.md",
+    "Books/So Good they Can't Ignore You.md",
+    "Books/Let's Talk Mutual Funds.md",
+    "Books/Let's Talk Money.md",
+    "6 Week Career Plan/🚀 Elam's 6-Week Career Plan (Python Backend + Data + GenAI).md",
+    "Books"
+  ]
+}

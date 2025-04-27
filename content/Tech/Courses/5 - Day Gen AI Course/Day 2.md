@@ -29,8 +29,8 @@
 ## Retrieval Augmented Generation (RAG):
 The concept highlights the use of embeddings to find relevant information from a knowledge base and then use that information to boost the prompts that we give to the language model. This helps the language model to provide more accurate and relevant responses
 
-**This involves a Two Step Process**
-**Step 1 :** To create an index. This involves breaking down our documents into chunks, generating embeddings for each chunk using a document encoder, storing those embeddings in a vector database
+**This involves a Two Step Process** <br>
+**Step 1 :** To create an index. This involves breaking down our documents into chunks, generating embeddings for each chunk using a document encoder, storing those embeddings in a vector database<br>
 **Stage 2 :** When a user asks a question. We go into the query processing stage, we first take the user's question, turn it into an embedding using a query encoder, then perform a similarity search in the vector database to find the chunks whose embeddings are closest to the query embedding
 
 ## Types of Embeddings
@@ -41,12 +41,13 @@ Helps us represent words, sentences, paragraphs and even entire documents
 **Word Embeddings:**
 Dense, fixed length vectors that aim to capture the meaning of individual words, like how each words relate to each other semantically 
 
-**Word2Vec technique** : 
-	Uses **CBOW** (Predict the target word given surrounding context) or **Skip Gram** (Predict surrounding context words given a single target word.)
+**Word2Vec technique** : <br>
+	Uses **CBOW** (Predict the target word given surrounding context) or **Skip Gram** (Predict surrounding context words given a single target word.)<br>
 	**Limitation :** Captures local relationships between words within a small window of context
+	
 **Glove Technique :**
 	 Tries to capture more global information about how words co-occur
-	 * Builds a co-occurrence matrix which basically counts how often each word appears in the context of every other word in the entire dataset
+	 - Builds a co-occurrence matrix which basically counts how often each word appears in the context of every other word in the entire dataset
 
 **Document Embeddings:**
 Representing the meaning of larger chunks of text

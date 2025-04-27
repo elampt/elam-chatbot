@@ -63,15 +63,15 @@ All the above foundational models are built using the **Transformer Architecture
 
 **The Training process :**
 1. **Pre- Training**
-	Feed the model tons of data just raw text, helps it learn the grammar and vocabulary of language
+	Feed the model tons of data just raw text, helps it learn the grammar and vocabulary of language<br>
 
-	Take the pre-trained model with General knowledge, train it further with smaller more specific data in a particular domain 
+	Take the pre-trained model with General knowledge, train it further with smaller more specific data in a particular domain <br>
 
 	**SFT (Supervised Fine Tuning)**
-	Main technique for training models on labelled examples. Helps model to learn and perform the specific task. Teaching it how to behave
+	Main technique for training models on labelled examples. Helps model to learn and perform the specific task. Teaching it how to behave<br>
 
 	**Reinforcement Learning With Human Feedback (RLHF)**
-	Teaching it generate responses that humans prefer. This reward model is used to fine tune the model using Reinforcement Learning
+	Teaching it to generate responses that humans prefer. This reward model is used to fine tune the model using Reinforcement Learning<br>
 
 	**Fine-Tuning can be so expensive ($)**
     To overcome this, **PFT** (Parameter Efficient Fine-Tuning: To only train a small part of the model leaving most of the pre-trained weights Frozen)
@@ -84,19 +84,19 @@ Once we have a find-tuned model, need **Prompt Engineering** to use it fully
 * Prompt Engineering is about designing the **input** that we give to the model
 * It makes a huge difference in the response of the model
 1. **Zero shot Prompting**
-	Give the model a direct instruction or question without any question
+	Give the model a direct instruction or question without any example
 2. **Few shot Prompting**
 	Give the model a few examples to tell what kind of response you are looking for 
 3. **Chain Of Thought Prompting**
 	For more complex reasoning tasks, we show the model how to think step-by-step
 
-**Sampling Techniques** Way the model generates text
-	1. **Greedy Search** Model always picks the most likely next token. Fast, but may lead to repetitive outputs
-	2. **Random Search** More random, can lead to more creative output. 
-		**Higher Temperature - More Randomness**
-		**Top K** Limits the model's choices to the top K most likely tokens, to control the output
-		**Top P** Nucleus sampling - Uses dynamic threshold based on the probabilities of the tokens
-		**Best of n** Generates multiples responses and picks best one based on some criteria
+**Sampling Techniques** Way the model generates text <br>
+1. **Greedy Search** Model always picks the most likely next token. Fast, but may lead to repetitive outputs
+2. **Random Search** More random, can lead to more creative output. 
+	**Higher Temperature - More Randomness**
+	**Top K** Limits the model's choices to the top K most likely tokens, to control the output
+	**Top P** Nucleus sampling - Uses dynamic threshold based on the probabilities of the tokens
+	**Best of n** Generates multiples responses and picks best one based on some criteria
 
 ## Evaluating the LLM's
 In the context of text generation (Something that is open-ended), we cannot use the traditional metrics like accuracy, f1 score etc.
@@ -129,18 +129,18 @@ In the context of text generation (Something that is open-ended), we cannot use 
 
 **Code and Math**
 1. Code generation (**AlphaCode - Google**)
-2. Completing
+2. Completing code
 3. Refactoring, debugging, documentation
 4. Understand large codes
-**Machine Translations**
-**Tech Summarization**
-**Question Answering Systems using RAG**
-**ChatBot systems**
-**Content Creation**
-**Natural Language Inference - Sentimental Analyis**
-**Text Classification - News, spam classification**
-**Autoraters**
-**Multimodal LLM's - Text + Audio + Video for education, business + more**
+**Machine Translations**.
+**Tech Summarization**.
+**Question Answering Systems using RAG**.
+**ChatBot systems**.
+**Content Creation**.
+**Natural Language Inference - Sentimental Analyis**.
+**Text Classification - News, spam classification**.
+**Autoraters**.
+**Multimodal LLM's - Text + Audio + Video for education, business + more**.
 
 ---- 
 # Prompt Engineering
@@ -171,11 +171,11 @@ The number of tokens the model generates directly impacts cost and processing ti
 
 > [!TIP]
 
-| Value       | **Benchmark Recommendation ** | More Variety | Single Answer |
-| ----------- | ----------------------------- | ------------ | ------------- |
-| Temperature | 0.2                           | 0.9          | 0             |
-| Top P       | 0.95                          | 0.99         |               |
-| Top K       | 30                            | 40           |               |
+| Value       | Benchmark Recommendation | More Variety | Single Answer |
+| ----------- | ------------------------ | ------------ | ------------- |
+| Temperature | 0.2                      | 0.9          | 0             |
+| Top P       | 0.95                     | 0.99         |               |
+| Top K       | 30                       | 40           |               |
 
 ## Prompting Techniques
 ### Zero shot prompting (or) General Prompting
@@ -210,7 +210,7 @@ The number of tokens the model generates directly impacts cost and processing ti
 * Example: A model uses a web search to gather some information and make decisions accordingly
 ### APE (Automatic Prompt Engineering)
 * Automating the creating of essential prompts
-* Ask he model to generate various prompt variations for a task and then we evaluate those variations based on their performance
+* Ask the model to generate various prompt variations for a task and then we evaluate those variations based on their performance
 ### Code Prompting
 * Prompts for writing particular codes
 * Prompts for explaining codes
