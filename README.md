@@ -126,7 +126,27 @@ Provides a user-friendly interface for interacting with the chatbot:
 
 This architecture ensures modularity, scalability, and efficient handling of user queries.
 
+---
 
+# **Setup Instructions for Using the Project**
+## 1. Clone the Repository
+Download the project from the GitHub repository:
+```bash
+git clone https://github.com/your-username/elam-chatbot.git
+cd elam-chatbot
+```
+## 2. Install Dependencies
+Install the required Python libraries using ```pip```
+```bash
+pip install -r requirements.txt
+```
 
+## 3. Add Environment Variables
+Add the GROQ_API_KEY variable with value to the .env file. You can generate the API key from [GroqCloud](https://console.groq.com/home) 
+
+## 4. Run the Chatbot Locally
+```bash
+streamlit run frontend.py
+```
 
 
